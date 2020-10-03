@@ -1,0 +1,33 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Ubuntu", sans-serif;
+}
+
+.header {
+  width: 100%;
+  z-index: 10;
+}
+
+.margin {
+  margin-top: 100px;
+}
+
+.margin-card {
+  margin: 12px;
+  border-radius: 10px;
+}
+
+#number {
+  color: grey;
+  font-size: 15px;
+}
+
+.card {
+  transition: ease-in-out 0.2s;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+}
